@@ -4,11 +4,24 @@ This can involve scenarios like saying you will do homework, but never doing it,
 The idea behind this calendar is to put those tasks into a visualization so you can't ever forget to do one of these things.
 
 ## 2.  Steps To Creating Student Calendar
+	- ER Diagram
 	- Login and Registration
 	- The Calendar Form
 	- The Event Form
 
-  # 1. Login Form
+ # 1. ER Diagram
+ Before starting the entire process I went ahead and made two simple tables in Microsoft SQL Server that way I can store any login/registration information or events entered into the caledar.
+ This is just a simple ER Diagram of the two tables I created.
+	+-----------------+        +------------------+
+	|     Login       |        |      Event       |
+	+-----------------+        +------------------+
+	| Id (PK)         |        | Date (PK)        |
+	| Username        |        | Event            |
+	| Password        |        +------------------+
+	+-----------------+
+
+
+  # 2. Login Form
   The login form will be the first form encountered when running this project. The form was created to replicate a user login for students who would like access to the student calendar.
   This form is connected to an SQL database to check to see if the entered username and password exists and grants the login. The following code shows the logic behind this form. If the user 
   enters the username and password it checks the database to see if it exists. If it doesn't, it will say account does not exist. You will then need to create an account.
