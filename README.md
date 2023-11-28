@@ -9,7 +9,7 @@ The idea behind this calendar is to put those tasks into a visualization so you 
 	- The Calendar Form
 	- The Event Form
 
- # 1. ER Diagram
+ # 1. SQL Tables
  Before starting the entire process I went ahead and made two simple tables in Microsoft SQL Server that way I can store any login/registration information or events entered into the caledar.
  This is just a simple ER Diagram of the two tables I created.
  
