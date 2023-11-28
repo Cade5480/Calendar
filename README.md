@@ -4,7 +4,7 @@ This can involve scenarios like saying you will do homework, but never doing it,
 The idea behind this calendar is to put those tasks into a visualization so you can't ever forget to do one of these things.
 
 ## 2.  Steps To Creating Student Calendar
-	- ER Diagram
+	- SQL Tables
 	- Login and Registration
 	- The Calendar Form
 	- The Event Form
